@@ -58,7 +58,7 @@ SLIDE: How to use Starklings
 SLIDE: Basics of Cairo Smart Contract
 
 SLIDE: Hello world with Remix
-  - https://remix.ethereum.org/?#activate=Starknet
+  - https://remix.ethereum.org/?#activate=Starknet&call=Starknet//loadFolderFromGithub//NethermindEth/cairo-workshop//
  
   - (follow the sequence from here: https://starknet-by-example.voyager.online/getting-started/basics/introduction.html )
   - Compile (one file)
