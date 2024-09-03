@@ -72,12 +72,7 @@ SLIDE: Setup your Testnet account
   - Deploy wallet account
 
 SLIDE: ERC20 on Sepolia
-  
 
-
-- Create a new wallet account
-- Get sepolia tokens from faucet
-- Deploy wallet account
 
 - Launch Remix with Starknet plugin
 - 
