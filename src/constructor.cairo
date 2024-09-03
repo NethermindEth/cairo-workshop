@@ -1,10 +1,11 @@
 #[starknet::contract]
 pub mod ExampleConstructor {
     use starknet::ContractAddress;
+    use starknet::storage::Map;
 
     #[storage]
     struct Storage {
-        names: LegacyMap::<ContractAddress, felt252>,
+        names: Map::<ContractAddress, felt252>,
     }
 
     // The constructor is decorated with a `#[constructor]` attribute.
