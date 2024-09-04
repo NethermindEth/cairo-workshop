@@ -71,7 +71,7 @@ NOTE: CLI commands listed below are for a Linux shell (for Windows-based systems
 - `Cairo` is a high level language which compiles to `Sierra` (The `S`afe `I`nt`e`rmediate `R`ep`r`esent`a`tion)
 - `Sierra` compiles to `Cairo Assembly` (`CASM`)
 - `CASM` is a provable computation language
-  - i.e. execution of Cairo can be proven by SHARP (and proof stored on L1).
+  - i.e. execution of CASM can be proven by SHARP (and proof stored on L1).
 
 ```
 

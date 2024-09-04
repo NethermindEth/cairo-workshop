@@ -3,9 +3,7 @@ Cairo dev workshop agenda:
 SLIDE: Workshop resources
   - URL of the workshop repo
   - QR Code to the workshop repo
-
-SLIDE: Prerequisites
-  - Setup the download and build of tools
+  - Prerequisites: Setup the download and build of tools
 
 TOOLS: 
 
@@ -26,7 +24,10 @@ Install starklings
   - cargo run -r --bin starklings
     - NOTE: may need to update some deps (cargo update)
 
+SLIDE: Purpose
+
 SLIDE: Agenda
+  - Starknet fundamentals
   - Brief Cairo language characteristic
   - Brief toolchain characteristic
   - Learning resources
@@ -68,11 +69,10 @@ SLIDE: Hello world with Remix
 
 SLIDE: Setup your Testnet account
   - Create a new wallet account
-  - Get sepolia tokens from faucet
+  - Get sepolia tokens from faucet (https://starknet-faucet.vercel.app/)
   - Deploy wallet account
 
 SLIDE: ERC20 on Sepolia
-
 
 - Launch Remix with Starknet plugin
 - 
