@@ -450,6 +450,32 @@ Just follow Starklings exercises.
 
 2. Select a smart contract code file
 3. Go to Starknet plugin panel, run Compile 
-4. 
+4. Go to Environments panel at the top (one with "Remote Devnet" selected) - press to drop down and select one random account from the list
+5. Go back to Starknet plugin panel, in Deploy section run Declare
+6. Once declare step completes, fill in the constructor parameters and run Deploy
+7. Go to Interact section, call/invoke contract methods
 
+## Go to testnet
+
+### Create testnet account using a wallet
+1. Open a Starknet wallet (eg. Braavos)
+2. Select "Add account" and create a new account record in wallet - note the new account address
+3. Switch the wallet to Testnet (Sepolia) network
+4. Fund the account (eg. from wallet via testnet faucet - https://starknet-faucet.vercel.app/)
+5. Deploy the account to the network
+6. View the account in block explorer (eg. Voyager, https://sepolia.voyager.online/contract/<contact_address>)
+
+### Put contract on testnet
+
+1. In Remix Starknet plugin, in the Environments panel, select Wallet 
+2. Connect to preferred wallet
+3. Go to plugin Deploy section, run Declare for selected Wallet account
+4. Fill in contract constructor parameters if required
+5. Run Deploy
+6. Go to Interact section, call/invoke contract methods
+
+## Unit testing
+
+1. In command line, in cairo-workshop folder, run `scarb build` to build all contracts in project
+2. Run `scarb test` to see unit tests run
 
