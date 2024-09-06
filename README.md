@@ -18,8 +18,7 @@ NOTE: CLI commands listed below are for a Linux shell (for Windows-based systems
   - `curl --proto '=https' --tlsv1.2 -sSf https://docs.swmansion.com/scarb/install.sh | sh`
 
 - Download and build starklings
-  - THIS TEMP FORK WORKS FOR NOW: `git clone https://github.com/stranger80/starklings-cairo1.git && cd starklings-cairo1`
-    - NOTE: ORIGINAL REPO DOES NOT WORK UNTIL FIXED BY AUTHOR: `git clone https://github.com/shramee/starklings-cairo1.git && cd starklings-cairo1`
+  - `git clone https://github.com/shramee/starklings-cairo1.git && cd starklings-cairo1`
   - `cargo update`
   - `cargo run -r --bin starklings`
 
