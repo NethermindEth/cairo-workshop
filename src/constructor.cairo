@@ -1,3 +1,8 @@
+#[starknet::interface]
+pub trait ISimpleConstructor<TContractState> {
+}
+
+
 #[starknet::contract]
 pub mod ExampleConstructor {
     use starknet::ContractAddress;
@@ -13,5 +18,9 @@ pub mod ExampleConstructor {
     #[constructor]
     fn constructor(ref self: ContractState, name: felt252, address: ContractAddress) {
         self.names.write(address, name);
+    }
+
+    #[abi(embed_v0)]
+    impl SimpleConstructor of super::ISimpleConstructor<ContractState> {
     }
 }
